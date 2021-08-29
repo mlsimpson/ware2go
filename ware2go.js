@@ -4,7 +4,7 @@ const prompt = require('prompt-sync')();
 let actor1 = prompt("Enter first actor's name: ");
 let actor2 = prompt("Enter second actor's name: ");
 
-let moviedb_api_key = prompt("Enter your themoviedb.org api key: ");
+const moviedb_api_key = prompt("Enter your themoviedb.org api key: ");
 
 actor1 = actor1.replace(/\s/, "+");
 actor2 = actor2.replace(/\s/, "+");
